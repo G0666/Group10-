@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FFE0EA">
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <corners
+                        android:radius="20dp" />
+                    <!-- 使用灰色填充 -->
+                    <solid
+                        android:color="#FFFFFF"/>
+                    <!-- 使用深灰色邊框 -->
+                    <stroke
+                        android:width="3dp"
+                        android:color="#000000" />
+                </shape>
+            </item>
+            <item android:state_pressed="false">
+                <shape  android:shape="rectangle">
+                    <corners android:radius="20dp" />
+                    <!-- 使用淺灰色填充 -->
+                    <solid android:color="#FFFFFF" />
+                    <!-- 使用淺灰色邊框 -->
+                    <stroke
+                        android:width="3dp"
+                        android:color="#000000" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

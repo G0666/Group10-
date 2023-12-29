@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#94F8F8F8">
+
+    <item android:state_window_focused="false">
+        <shape android:shape="rectangle">
+            <!-- 使用淺灰色填充 -->
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="10dp"/>
+            <!-- 使用淺灰色邊框 -->
+            <stroke
+                android:width="3dp"
+                android:color="#000000" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp"/>
+            <!-- 使用白色填充 -->
+            <solid android:color="#FFFFFF"/>
+            <!-- 使用深灰色邊框 -->
+            <stroke
+                android:width="3dp"
+                android:color="#000000" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <!-- 使用灰色調的填充色，例如 #CCCCCC -->
+            <solid android:color="#FFFFFF" />
+            <!-- 使用深灰色的邊框 -->
+            <stroke
+                android:width="3dp"
+                android:color="#333333" />
+        </shape>
+    </item>
+
+</selector>

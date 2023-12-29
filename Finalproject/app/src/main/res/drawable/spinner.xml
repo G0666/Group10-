@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景形狀 -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- 將背景顏色改為淺灰色 -->
+            <stroke android:color="#333333"
+                android:width="3dp"/>
+            <corners android:radius="5dp"/>
+            <padding android:right="5dp"/>
+        </shape>
+    </item>
+
+    <!-- 右側的圖示 -->
+    <item android:right="3dp"> <!-- 調整右邊距為3dp，可根據需要微調 -->
+        <bitmap android:gravity="end"
+            android:src="@drawable/spinner_more">
+        </bitmap>
+    </item>
+</layer-list>
